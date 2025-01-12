@@ -1,0 +1,100 @@
+.detailsReviewList {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 5rem;
+    padding: 15px 15px 15px 15px;
+    margin-bottom: 2rem;
+}
+
+.companyReviewListContainer {
+    display: flex;
+    justify-content: space-between;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+    /* padding: 15px 15px 15px 15px; */
+}
+
+.reviewListLengthUl {
+    padding: 0%;
+}
+
+.reviewListLengthLi {
+    margin-bottom: 2rem;
+}
+
+.reviewContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reviewLeft {
+    display: flex;
+    gap:2rem
+}
+
+.reviewLeft h3{
+    font-size: 18px;
+}
+
+.reviewLeft p{
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.reviewImg {
+    width: 12%;
+}
+
+.reviewImg img{
+    border-radius: 50%;
+}
+
+.reviewPara {
+    margin-left: 5rem;
+}
+
+.reviewPara h4 {
+    font-size: 16px;
+}
+
+.reviewPara p {
+    font-size: 12px;
+}
+
+.reviewRight{
+    display: flex;
+    align-items:center;
+}
+
+
+/* ============== MEDIA QUERIES (MEDIUM) ============ */
+
+@media screen and (max-width: 1151px) {
+    
+}
+  
+/** ============== MEDIA QUERIES (SMALL) ============ */
+  
+@media screen and (max-width: 600px) {
+
+    .companyReviewListContainer{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .reviewContainer{
+        flex-direction: column;
+    }
+    .reviewRight {
+        margin-left: 4rem;
+        font-size: 10px;
+    }
+
+    .reviewPara {
+        margin-left: 0px;
+        margin-top: 2rem;
+    }
+   
+}
+  

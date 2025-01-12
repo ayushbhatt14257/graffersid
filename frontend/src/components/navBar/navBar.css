@@ -1,0 +1,37 @@
+.navLogo i {
+  font-size: 2rem;
+  border: 10px solid #ad08ec;
+  border-radius: 50%;
+  background-color: #ad08ec;
+  color: white;
+}
+
+.navLogo h3 {
+  font-weight: 300;
+}
+
+.navLogo h2 {
+  color: #ad08ec;
+}
+
+.navLogo span {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.navBarContainer {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.form-field {
+  position: relative;
+  display: inline-block;
+}
+
+.icon {
+  position: absolute;
+  right: 16px;
+  top: 12px;
+  color: #ad08ec;
+}

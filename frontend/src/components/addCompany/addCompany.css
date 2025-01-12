@@ -1,0 +1,76 @@
+.inputFormMainContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputFormContainer {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    width: 60%;
+    padding: 20px 10px 20px 10px;
+    margin-bottom: 2rem;
+}
+
+.formContainer {
+    margin-top: 2rem;
+    width: 80%;
+}
+
+.inputDiv {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* gap: 1rem; */
+    margin-bottom: 1rem;
+}
+
+.inputDiv input, textarea {
+    border: 1px solid rgba(0, 0, 0, 0.286);
+    border-radius: 4px;
+    padding: 3px 10px 3px 10px;
+}
+
+.inputDiv p {
+    color: red;
+    margin-bottom: 0;
+}
+
+.inputBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.inputBtn button {
+    background-color: #ad08ec;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    font-weight: 500;
+    border-radius: 4px;
+}
+
+
+/* ============== MEDIA QUERIES (MEDIUM) ============ */
+
+@media screen and (max-width: 1151px) {
+   
+}
+  
+/** ============== MEDIA QUERIES (SMALL) ============ */
+  
+@media screen and (max-width: 600px) {
+    .inputFormContainer{
+        width: 90%;
+    }
+
+    .inputFormContainer h1{
+        font-size: 16px;
+    }
+   
+}
